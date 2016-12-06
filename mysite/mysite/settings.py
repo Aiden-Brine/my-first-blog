@@ -25,7 +25,7 @@ SECRET_KEY = 'gim7zvcu=8fmol$v%sf&t%oxif2j3k_myco(vpb1so!fj9ok*3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'aidenbrine.pythonanywhere.com']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'blog',
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
